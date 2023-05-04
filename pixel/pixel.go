@@ -26,8 +26,8 @@ func main() {
 	pixelCanvasConfig := apptype.PxCanvasConfig{
 		DrawingArea:  fyne.NewSize(600, 600),
 		CanvasOffset: fyne.NewPos(0, 0),
-		PxRows:       10,
-		PxCols:       10,
+		PxRows:       12,
+		PxCols:       12,
 		PxSize:       30,
 	}
 

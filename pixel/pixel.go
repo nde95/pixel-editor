@@ -9,11 +9,14 @@ import (
 
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/app"
+	"fyne.io/fyne/v2/theme"
 )
 
 func main() {
 	pixelApp := app.New()
-	pixelWindow := pixelApp.NewWindow("pixel")
+	pixelWindow := pixelApp.NewWindow("pixel-editor")
+
+	pixelApp.Settings().SetTheme(theme.DarkTheme())
 
 	state := apptype.State{
 		BrushColor:     color.NRGBA{255, 255, 255, 255},

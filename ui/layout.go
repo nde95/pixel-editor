@@ -1,6 +1,8 @@
 package ui
 
-import "fyne.io/fyne/v2/container"
+import (
+	"fyne.io/fyne/v2/container"
+)
 
 func Setup(app *AppInit) {
 	swatchesContainer := BuildSwatches(app)
